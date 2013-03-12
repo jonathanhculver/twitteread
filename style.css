@@ -1,0 +1,479 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    background-image: url("http://a0.twimg.com/images/themes/theme1/bg.png");
+    background-attachment: fixed;
+    background-color: #C0DEED;
+    background-position: left 40px;
+    background-repeat: no-repeat;
+    color: #333333;
+}
+
+.textInput {
+    background-color: #777777;
+    border: 1px solid black;
+    padding: 4px;
+    padding-left: 6px;
+    color: #CCCCCC;
+    font-size: 12px;
+    
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+
+}
+
+.button {
+    border: 0px;
+    color: #CCCCCC;
+    height: 27px;
+    width: 50px;
+
+background-image: linear-gradient(bottom, rgb(117,116,117) 33%, rgb(120,120,120) 54%, rgb(135,135,135) 74%);
+background-image: -o-linear-gradient(bottom, rgb(117,116,117) 33%, rgb(120,120,120) 54%, rgb(135,135,135) 74%);
+background-image: -moz-linear-gradient(bottom, rgb(117,116,117) 33%, rgb(120,120,120) 54%, rgb(135,135,135) 74%);
+background-image: -webkit-linear-gradient(bottom, rgb(117,116,117) 33%, rgb(120,120,120) 54%, rgb(135,135,135) 74%);
+background-image: -ms-linear-gradient(bottom, rgb(117,116,117) 33%, rgb(120,120,120) 54%, rgb(135,135,135) 74%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.33, rgb(117,116,117)),
+	color-stop(0.54, rgb(120,120,120)),
+	color-stop(0.74, rgb(135,135,135))
+);
+    
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;    
+}
+
+.buttonActive {
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(bottom, rgb(13,74,128) 52%, rgb(6,77,143) 66%, rgb(35,110,176) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(13,74,128) 52%, rgb(6,77,143) 66%, rgb(35,110,176) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(13,74,128) 52%, rgb(6,77,143) 66%, rgb(35,110,176) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(13,74,128) 52%, rgb(6,77,143) 66%, rgb(35,110,176) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(13,74,128) 52%, rgb(6,77,143) 66%, rgb(35,110,176) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.52, rgb(13,74,128)),
+        color-stop(0.66, rgb(6,77,143)),
+        color-stop(1, rgb(35,110,176))
+    );
+
+}
+
+a:link {
+    color: #0084B4;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: #0084B4;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/**** Header ****/
+
+#header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    margin-bottom: 20px;
+
+    color: white;
+    
+    background-image: linear-gradient(bottom, rgb(26,26,26) 32%, rgb(41,40,41) 66%, rgb(38,38,38) 83%);
+    background-image: -o-linear-gradient(bottom, rgb(26,26,26) 32%, rgb(41,40,41) 66%, rgb(38,38,38) 83%);
+    background-image: -moz-linear-gradient(bottom, rgb(26,26,26) 32%, rgb(41,40,41) 66%, rgb(38,38,38) 83%);
+    background-image: -webkit-linear-gradient(bottom, rgb(26,26,26) 32%, rgb(41,40,41) 66%, rgb(38,38,38) 83%);
+    background-image: -ms-linear-gradient(bottom, rgb(26,26,26) 32%, rgb(41,40,41) 66%, rgb(38,38,38) 83%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.32, rgb(26,26,26)),
+        color-stop(0.66, rgb(41,40,41)),
+        color-stop(0.83, rgb(38,38,38))
+    );
+    
+    -moz-box-shadow: 0 0 5px 2px #3F3D3D;
+    -webkit-box-shadow: 0 0 5px 2px #3F3D3D;
+    box-shadow: 0 0 5px 2px #3F3D3D;
+    
+    
+}
+
+#innerHeader {
+    width: 900px;
+    height: 100%;
+    border: 0px solid purple;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#logo {
+    float: left;
+    width: 175px;
+    height: 100%;
+    background: url("http://a2.twimg.com/a/1319042409/phoenix/img/twitter_logo_right.png") no-repeat scroll 20px 9px transparent;  
+   
+    
+}
+
+#user {
+    float: right;
+    width: 225px;
+    height: 100%;
+}
+
+#profileImage {
+    float: left;
+    width: 50px;
+    height: 100%;
+    margin-top: -2px;
+    
+}
+
+#userName {
+    float: left;
+    width: 50px;
+    height: 80%;
+    color: #BABABA;
+    padding-top: 7px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+#searchContainer {
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+#searchBox {
+    width: 200px;
+    height: 18px;
+    margin-top: 5px;  
+}
+
+/****** End Header ******/
+
+/****** Body **********/
+
+
+#content {
+    width: 900px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid black;
+}
+
+#leftPane {
+    float: left;
+    width: 35%;
+    min-height: 1593px;
+    overflow: hidden;
+    background-color: #D4E9F3;
+    
+    -moz-border-radius-topleft:8px;
+    -webkit-border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
+   
+}
+
+#rightPane {
+    float: left;
+    width: 65%;
+    min-height: 1580px;
+    background-color: white;
+    
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+    -moz-box-shadow: -1px 2px 6px 0px #3F3D3D;
+    -webkit-box-shadow: -1px 2px 6px 0px #3F3D3D;
+    box-shadow: -1px 2px 6px 0px #3F3D3D;
+    margin-left: -5px;   
+    
+}
+
+#addUserContainer {
+    width: 95%;
+    height: 40px;
+    float: left;
+    border: 0px solid black;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+#addBox {
+    width: 200px;
+    height: 18px; 
+    background-color: white;
+    color: #999999;
+    border: 1px solid #0084B4;
+    margin-right: 10px;
+   
+}
+
+.friendRow {
+    width: 100%;
+    border-bottom: 0px solid #0084B4;
+    height: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.friendLastRow {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.friendPhoto {
+    float: left;
+    width: 50px;
+    height: 100%;
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+.friendName {
+    float: left;
+    width: 220px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.friendScreenName {
+    float: left;
+    width: 200px;
+    height: 20px;
+    color: #0084B4;
+
+}
+
+#tweetHeader {
+    width: 570px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-bottom: 0px solid black;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #E8E8E8; 
+    
+
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+    text-align: left;
+    color: #333;
+    font: bold 18px Helvetica Neue,Helvetica,sans-serif;    
+    
+
+}
+
+.tweetRow {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.tweetLastRow {
+    border-bottom: 0px solid #CCCCC7;
+}
+
+.tweets {
+    float: left;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.tweetName {
+    float: left;
+    height: 20px;
+    width: 85%;
+    margin-top: -4px;
+    margin-bottom: 2px;
+}
+
+.tweetSN {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.tweetN {
+    color: #777777;
+}
+
+.tweetText {
+    float: left;
+    min-height: 30px;
+    width: 85%;
+    
+}
+
+.tweetDate {
+    float: right;
+    height: 10px;
+    width: 12%;
+    color: #777777;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.tweetHighlighted {
+    background-color: #E5F2F7;
+}
+
+.grayedOut {
+    color: black;
+    background-color: #CCCCCA;
+    z-index: 5;
+}
+
+
+.showhide {
+    float: right;
+    width: 50px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 3px;
+    color: #0084B4;
+}
+
+.showhide:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.highlighted {
+
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+img {
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;   
+}
+
+#pages {
+    width: 230px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 26px;
+
+}
+
+.page {
+    float: right;
+    width: 15px;
+    color: #579BBF;
+    cursor: pointer;
+
+}
+
+.page:hover {
+    text-decoration: underline;
+}
+
+.pageLabel {
+    float: right;
+    width: 40px;
+    color: black;
+}
+
+#footer {
+    position: relative;
+    top: 0px;
+    height: 20px;
+    width: 220px;
+    float: right;
+    margin-right: 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/****** End Body ******/
+
